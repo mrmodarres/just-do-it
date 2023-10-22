@@ -12,7 +12,7 @@ interface Todo {
     $id:string;
     $createdAt:string;
     title:string;
-    status:string;
+    status:TypedColumns;
     image?:Image;
 }
 

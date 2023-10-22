@@ -6,7 +6,7 @@ function Board() {
     const getBoard = useBoardStore((state) => state.getBoard);
     useEffect(() => {
         getBoard()
-        console.log("Board useEffect");
+      
     }, [getBoard])
     
 
