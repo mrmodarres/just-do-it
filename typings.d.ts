@@ -5,7 +5,7 @@ interface Board{
 type TypedColumns = "todo"|"inprogress"|"done"
 interface Column {
     id:TypedColumn;
-    todo:Todo[];
+    todos:Todo[];
 }
 
 interface Todo {
